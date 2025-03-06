@@ -6,7 +6,7 @@ disable_html_sanitization: true
 allow_math: true
 ---
 
-# This is h1
+# This is 🫥
 
 ![a drippy lemon](logo.svg)
 
@@ -14,9 +14,9 @@ allow_math: true
 
 ## This is h2
 
-*This is italic.*[^1]
+_This is italic._[^1]
 
-[^1]: This is a footnote, *which can also be italic*.
+[^1]: This is a footnote, _which can also be italic_.
 
 **This is bold.**
 
@@ -93,5 +93,3 @@ Visit [ $\KaTeX$ ](https://katex.org/docs/supported#fractions-and-binomials) for
 
     draw_frame ()
 </script>
-
-
