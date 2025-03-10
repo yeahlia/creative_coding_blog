@@ -1,7 +1,7 @@
 ---
 title: Using For Loops to Create a Grid
-published_at: 2025-01-06
-snippet: Meow
+published_at: 2025-03-04
+snippet: 
 disable_html_sanitization: true
 allow_math: true
 ---
