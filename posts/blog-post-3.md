@@ -6,23 +6,19 @@ disable_html_sanitization: true
 allow_math: true
 ---
 
+An aesthetic register refers to a visual or sensory experience that elicits a specific kind of emotional or cognitive response. It classifies styles, themes and approaches based on the types of reactions that art provokes.
+
+In terms of _cute,._ it can have several characteristics which often creates a sense of playfulness or affection. This can be through childlike features, smallness/roundness, innocence, expressiveness or comforting.
+
+# How I could make:
 ### Cute Visuals
+I could use more bright or pastel colors which can create a warm, inviting and playful atmosphere as those colors (especially when paired together) is typically associated with children. I could use round and organic shapes with maybe particle or motion effects to create a cute aesthetic.
 
 ### Cute Sounds
+High-pitched and playful sounds would achieve cute sounds. A higher frequency, short durations and kind of bouncy rhythms.
 
 ### Cute Interactions
-
-### Cute for Each Domain
-
-### Concepts and Techniques to Achieve Cuteness
+I could also use some gentle, smooth and non-aggressive animations, kind of bubbly and playful. I could also use interactions like the user clicking something and it could trigger a cute visual or sound effect to enhance the cuteness of the piece.
 
 ### Plan for Assignment Task 1
 
-n your blog, discuss how you might go about making:
-
-cute visuals
-cute sounds
-cute interactions
-... in p5. Please list an example of cute for each domain, along with some discussion of the concepts and techniques that you might employ to help your p5 sketch to achieve cuteness.
-
-Please include in your discussion a broad description of your plan for AT1, along with an embedded p5 sketch that helps explain how you will make it work.

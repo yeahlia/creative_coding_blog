@@ -17,4 +17,4 @@ comment the sketch, demonstrating that you understand what each line of code is 
 make a list of the lines of code that you are having trouble understanding
 list some resources, colleagues (human and non-human), and communities might you reach out to to help you understand these lines of code
 document your learning journey with words, screenshots, and embedded p5 sketches
-< b o n u s ~ r o u n d > Refactor your Falling Falling sketch to use classesLinks to an external site..
+< b o n u s ~ r o u n d > Refactor your Falling Falling sketch to use classes
