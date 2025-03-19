@@ -5,16 +5,27 @@ snippet:
 disable_html_sanitization: true
 allow_math: true
 ---
+# Kindred Spirit 
+### Describe Your Kindred Spirit
+My kindred that I choose for this assignment would be nature, specifically everything in the ocean/aquatic.
 
-Please describe the kindred spirit for whom your AT1 is an offering.
-what is the context of your kinship?
-what is your common purpose?
-who or what is your shared challenge / adversary?
-Please expand on your discussions from homework: 2a to explain how your chosen kindred spirit may understand or relate to the visual, sonic, and interactive elements of your AT1 idea. Please use embedded p5 sketches to help explain your ideas.
-Consider this p5 recreationLinks to an external site. of Falling FallingLinks to an external site., by Rafaël Rozendaal.
-duplicate the sketch so it exists under your username
-comment the sketch, demonstrating that you understand what each line of code is doing
-make a list of the lines of code that you are having trouble understanding
-list some resources, colleagues (human and non-human), and communities might you reach out to to help you understand these lines of code
-document your learning journey with words, screenshots, and embedded p5 sketches
-< b o n u s ~ r o u n d > Refactor your Falling Falling sketch to use classes
+### What is the Context of your Kinship?
+Growing up in the Philippines, I was always near water and sealife, especially since my extended family are all people who love being in the water, whether that be snorkelling, diving, island hopping, etc. I feel a close connection to the sea, and feel at calm when I'm near water, a perfect kindred spirit to offer something to.
+
+### What is Your Common Purpose
+Both the ocean and myself can inpsire appreciation and wonder. The ocean nurtures life and is this vast sealife with many different aspects that make people appreciate its ecosystem and beauty. While I wish to inspire others with my art and creativity, and make people feel emotions when they see/hear my work.
+
+### Who or What is Your Shared Challenge/Adversary?
+I want to use Ngai's cute aesthetic register to show how vulnerable, yet beautiful the ocean can be (even if I don't specifically create the ocean). I want people to see it and see that my project uses the concept opf cuteness as a form of resilience in a world that values power and efficiency. I want to celebrate the smaller aspects of life, down to the tiniest thing.
+
+### How Would Your Kindred Spirit Relate to the Visual, Sonic and Interactive Elements of Your Idea
+USE P5 SKETCHES TO HELP EXPLAIN IDEAS
+
+# Falling Falling by Rafaël Rozendaal
+screenshot of what each line of code does and embed
+
+### Lines of Code I Don't Understand
+
+
+### Resources, Colelagues and Communities to Learn
+document
