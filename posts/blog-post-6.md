@@ -37,7 +37,7 @@ I will classes in my assignment to define the properties and behaviors of the bu
 </script>
 
 ### What Communities and Learning Resources Did You Draw on to do the Bulk of Your Learning?
-I'm not sure if this is the best practice, but honestly ChatGPT really helped me. I used the p5.js library to learn what the different methods are, and the general explanation, but I never really knew how to use them. Like I knew what they did, but when I was writing code I just had no idea what to write. By putting my code through ChatGPT, it was able to tell me what I was missing (which was so useful when I was getting frustrated and stuck), and it helped me understand what I was doing. If it told me to do something, I asked what it did and why I need to use it which was extremely helpful. Other than that, just searching information up on forums and asking my family and friends that code also helped me. It really helped having someone there to give me immediate feedback on what I was doing, and could explain my mistakes as it was happening.
+The main thing that really helped me whilst learning was my mother and my brother. They both code as jobs and are familiar with a variety of coding languages, javascript being one of them. They were able to sit down and help me and explained to me their thought process and how I could translate my ideas into code. It was really helpful having someone there to give me immediate feedback on what I was doing, as well as explain my mistakes as it was happening. I was also able to annoy them with questions without feeling bad lol! Other than that, I'm not sure if this is the best practice, but honestly ChatGPT really helped me. I used the p5.js library and online forums to learn what the different methods are, and the general explanation, as well as guidelines on what methods and functions to use/make, but I never really knew how to use them. Like I knew what they did, but when I was writing code without any help, I just had no idea what to write. By putting my code through ChatGPT, it was able to tell me what I was missing (which was so useful when I was getting frustrated and stuck), and it helped me understand what I was doing. If it told me to do something, I asked what it did and why I need to use it which was extremely helpful. I was also able to make my code more efficient using this, I kept asking if there were ways to help make my code more efficient, and it really helped as I noticed a lot of my code was repeating, but I didn't know what to do to avoid that.
 
 ### What Aspects Have You Enjoyed the Most About This Process?  What Have You Found to be Most Surprising?
 I really like learning something new, I think when I finally get something or my code works how I want I get really excited and proud of myself. I didn't realize how rewarding it can be once you understand certain concepts (but of course understanding them is the most difficult part).
@@ -62,14 +62,13 @@ To make the bubbles grow when pressed, it was kind of difficult to figure out. I
 
 Then I just assigned that bubble (if the mouse was over a bubble) to a variable, then in the draw() function, it checks if the variable is assigned, and if it is, it calls the grow() method and causes it to grow over time! But it didn't work! I got so annoyed and asked my mom and brother for help and they basically found out (after a very long time) that we needed to check if the specific bubble being pressed is the same one that was selected, which basically just makes sure that not very bubble grows. Lowkey still confused how the code all works together as a whole, but hey working at one thing at a time is working!
 
-Now my next session will be (hopefully) allowing the users to click new circles in, adding sound and the bubbles disappearing when it hits the others. If time permits, I want to try making the circles into blobs instead, but I think the calculation of that will be way more difficult, but my other ideas are a popping animation of some sort, and the background moving in some way.
+Now my next session will be (hopefully) allowing the users to click new circles in, adding sound and the bubbles disappearing when it hits the others. My original idea was for the bubbles to be kind of like blobs/organic shapes, but I think the calculations for those wuold be much more advanced that what I am currently capable of. To replace this, I kind of what the background to be moving in some way, maybe color shifting using lerp or just some slight variations, so I don't feel as if the canvas is static, or maybe make the bubbles jitter, but I'm not sure if that will affect the code a lot, so I'm most likely going to stick with the background moving.
 
 
  
 
  <!-- 
  how to add the sound
- how to make the circles like blobs instead
  how to do the click animation
  maybe animation of it popping, maybe disappear from the inside out
   -->
