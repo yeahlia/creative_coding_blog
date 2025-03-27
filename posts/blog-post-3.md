@@ -23,4 +23,14 @@ I could also use some gentle, smooth and non-aggressive animations, kind of bubb
 ### Plan for Assignment Task 1
 I want to use mainly ellipses and round shapes to acheive Ngai's definition of a cute aesthetic, moving away from sharp edges and corners. My idea is for the users to be able to click onto the canvas and it draws a ellipse or organic shape and when the mouse click is held, the object grows. When it hits other objects or the edge of the screenm it will explode and play a cute sound (and maybe a cute animation for when it explodes but I'm not sure how possible that is with my skill level.) I want to use a pastel-y or bright color palette to reflect the cute aeshtetic as well.
 
-PROOF WITH P5JS
+<iframe id="plan" src="https://editor.p5js.org/yeahlia/sketches/7EieZt1X7"></iframe>
+
+<script type="module">
+
+    const iframe  = document.getElementById (`plan`)
+    iframe.width  = iframe.parentNode.scrollWidth
+    iframe.height = iframe.width 
+
+</script>
+
+This is just the general idea and helped me work on how I could make the bubbles grow in my final assignment!

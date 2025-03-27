@@ -7,16 +7,16 @@ allow_math: true
 ---
 # How Does My Idea Use Each of the Following Concepts:
 ### Variables
-My idea uses variables to store information. For example, variables will store the properties of the bubbles such as its size, position and color, as well as store the sounds that play for all the interactions. These variables will allow my to modify and change the current state of bubbles throughout the interaction.
+My idea uses variables to store information. For example, variables will store the properties of the bubbles such as its size, position and color, as well as store the sounds that play for all the interactions. These variables will allow my to modify and change the current state of bubbles throughout the interaction. I can also use it to control states which will help the program track if a bubble is being interacted with!
 
 ### Functions
-It will help organize the different interactions and behaviors of certain things. This includes creating new bubbles when the user clicks on the canvas, the growth of the bubbles when long-pressed, and checking if these shapes are colliding. It will help me organize, understand and maintain the code as each 'task' can basically be broken down and seperated using functions.
+It will help organize the different interactions and behaviors of certain things. This includes creating new bubbles when the user clicks on the canvas, the growth of the bubbles when long-pressed, and checking if these shapes are colliding. It will help me organize, understand and maintain the code as each 'task' can basically be broken down and seperated using functions. Functions will also handle different stages (such as creating them, growing, and the collision) so I could change the parameters of each one without affecting the others
 
 ### Iteration
-Iteration will help me avoid long code, like using a iterative loop to create bubbles at the start, instead of manually coding them in. I can also use to check certain states of objects in an easier way and will make the program more efficient. This is particularly useful in my idea for if the user creates a lot of bubbles/blobs, and the program needs to be constantly checking if it has been clicked or collided with another object.
+Iteration will help me avoid long code, like using a iterative loop to create bubbles at the start, instead of manually coding them in. I can also use to check certain states of objects in an easier way and will make the program more efficient. This is particularly useful in my idea for if the user creates a lot of bubbles/blobs, and the program needs to be constantly checking if it has been clicked or collided with another object. 
 
 ### Boolean Logic
-I will use this to make certain decisions in my assignment based on true/false. Something like whether the user click is within the boundaries of a bubble (true if it is, false if not), and then an action will occur based on the outcome, in this case, if it is true, the bubble will burst. I can also use it to determine if any of the bubbles collide, or if the user is long clicking a bubble to trigger its growth.
+I will use this to make certain decisions in my assignment based on true/false. Something like whether the user click is within the boundaries of a bubble (true if it is, false if not), and then an action will occur based on the outcome, in this case, if it is true, the bubble will burst. I can also use it to determine if any of the bubbles collide, or if the user is long clicking a bubble to trigger its growth. It will basically help me the most in terms of user interactions.
 
 ### Arrays
 Arrays will help me store and manage objects, which in my idea, will be bubbles. Each bubble on the screen will have its own properties and instead of creating a bunch of seperate variables for each one, I will just store this information in an array. It allows my code to be more easily found and read, and that means I could also easily add, remove and update the objects as the user interacts with my work. I will also use it to store information like the possible colors that each bubble can be, then use a randomizer to choose a random position in the color array.

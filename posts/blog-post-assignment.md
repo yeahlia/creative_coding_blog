@@ -48,14 +48,16 @@ Other than that, I also added code to make the background color lerp between 2 c
 
 # FINISHED ASSIGNMENT!!
 
-<iframe id="cuteDraft3" src="https://editor.p5js.org/yeahlia/sketches/GKIDpGTIv"></iframe>
+<iframe id="cuteAssignment" src="https://editor.p5js.org/yeahlia/sketches/GKIDpGTIv"></iframe>
 
 <script type="module">
 
-    const iframe  = document.getElementById (`cuteDraft3`)
+    const iframe  = document.getElementById (`cuteAssignment`)
     iframe.width  = iframe.parentNode.scrollWidth
     iframe.height = iframe.width 
 
 </script>
 
-And now were done!! The difference between this version and the previous version is that I added the pulsating effect by adding a phase and increment in the constructor. By putting it in the contructor, I am able to start the growth function and the rate of growth at different times, rather than everything being in sync and kind of monotonous!
+And now were done!! The difference between this version and the previous version is that I added the pulsating effect by adding a phase and increment in the constructor. By putting it in the contructor, I am able to start the growth function and the rate of growth at different times, rather than everything being in sync and kind of monotonous. I also added the function of when they collide, it disappears. I did this by checking the distance between each bubble and if they overlap, they get marked to remove, which then fades out by decreasint the transparency/alpha, and once it is fully transparent, it is fully spliced and removed from the code (I realized I had to do this because my first iteration I was so confused that things kept disappearing when they didn't collide with any bubbles, but then I realized that the bubbles were still there, but fully transparent!). I also added the sound to the growth of the bubble, the creation of one, and the collision. I used [this](https://editor.p5js.org/capogreco/sketches/fSbSZWn4Q) p5 example to figure out how to do the sound, and also a little help from my brother. I couldn't find any sounds I liked so I just made them using Ableton Live. I stayed in the key of C and used notes for the creation and growth sound, but did a chord for the collision! I also changed the background since I wasn't really liking the yellowish background, and tried to choose something more cute.
+
+The link for the finished assignment is [here!](https://editor.p5js.org/yeahlia/sketches/GKIDpGTIv)
