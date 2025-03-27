@@ -46,8 +46,16 @@ However, if a bubble was not clicked, then I made a variable that assumes that a
 
 Other than that, I also added code to make the background color lerp between 2 colors (which I hope to change to more). I used [this](https://editor.p5js.org/yeahlia/sketches/CelvRaf8c) existing code that I found and basically used the same code in mine!
 
- <!-- 
- how to add the sound
- how to do the click animation
- maybe animation of it popping, maybe disappear from the inside out
-  -->
+# FINISHED ASSIGNMENT!!
+
+<iframe id="cuteDraft3" src="https://editor.p5js.org/yeahlia/sketches/GKIDpGTIv"></iframe>
+
+<script type="module">
+
+    const iframe  = document.getElementById (`cuteDraft3`)
+    iframe.width  = iframe.parentNode.scrollWidth
+    iframe.height = iframe.width 
+
+</script>
+
+And now were done!! The difference between this version and the previous version is that I added the pulsating effect by adding a phase and increment in the constructor. By putting it in the contructor, I am able to start the growth function and the rate of growth at different times, rather than everything being in sync and kind of monotonous!
