@@ -1,10 +1,12 @@
 ---
-title: Using p5.js in Static Folder
+title: Post Digital Artists
 published_at: 2025-04-3
 snippet:
 disable_html_sanitization: true
 allow_math: true
 ---
+
+This is just a practice on how to use  p5.JS library directly onto vs code!
 
 <script src="./scripts/p5.js"></script>
 
@@ -44,3 +46,12 @@ allow_math: true
     }
     
 </script>
+
+# Why Does ARTIST Classify as Post-Digital?
+pick a post-digital artist from our discord channel, or from elsewhere on the internet.  Choose a specific work and describe it, referring to Florian Cramer's essay What is Post-Digital? to justify why you think this artist classifies as post-digital.
+
+### What Technology are They Using to Produce Their Work?
+Hypothetically, if they were using javascript, what APIs & libraries could they use?
+
+# Post-Digital Poem
+use RiTa.js to generate a post-digital poem responding to the work in your blog.
