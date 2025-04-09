@@ -5,8 +5,7 @@ snippet:
 disable_html_sanitization: true
 allow_math: true
 ---
-
-IMPORTING THE THINGY THREE.JS
+# Implementing a three.js Example into the Blog
 
 <div id="three.js_container"></div>
 
@@ -205,3 +204,9 @@ IMPORTING THE THINGY THREE.JS
 			}
 
 		</script>
+
+# Consider the Glitch Art by Sabato Visconti
+### What Does Having the 3D Form Glitch Out Like This Do in Terms of Aesthetic Register and Effective Complexity
+
+
+### How Do You Think It Works, Under the Hood?
