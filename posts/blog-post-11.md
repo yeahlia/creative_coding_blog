@@ -5,6 +5,7 @@ snippet:
 disable_html_sanitization: true
 allow_math: true
 ---
+
 # Implementing a three.js Example into the Blog
 
 <div id="three.js_container"></div>
@@ -206,7 +207,11 @@ allow_math: true
 		</script>
 
 # Consider the Glitch Art by Sabato Visconti
+
 ### What Does Having the 3D Form Glitch Out Like This Do in Terms of Aesthetic Register and Effective Complexity
 
+In terms of aesthetic register, it becomes more Zany as it becomomes chaotic when it changes from its rose form to its more unrecognizable form. It if is fast and high-energy. It connects to effective complexity because the rose doesn't turn into random noise, it is still able to be recognized as the rose, but some of its form was changed, but the overall structure is still there.
 
 ### How Do You Think It Works, Under the Hood?
+
+I think it could make use of 3D models that is made up of verticies. It starts of as the most recognizable form and then as the code runs, it could change or lose some of the verticies to create a kind of glitching, distorted effect.

@@ -8,85 +8,56 @@ allow_math: true
 
 This is just a practice on how to use p5.JS library directly onto vs code!
 
-<!-- <script src="./scripts/p5.js"></script>
+<script src="./scripts/p5.js"></script>
 
 <canvas id="p5_example"></canvas>
 
 <script>
-    const cnv = document.getElementById ("p5_example")
-    const w = cnv.parentNode.scrollWidth
-    const h = w * 9 / 16
+  const cnv = document.getElementById("p5_example");
+  const w = cnv.parentNode.scrollWidth;
+  const h = (w * 9) / 16;
 
-    let circle = {
-        x = 200,
-        y: 200,
-        size: 50,
-        phase: 0,
-    };
+  function setup() {
+    createCanvas(w, h, P2D, cnv);
+  }
 
-    let col1 = '#D6F2E3';
-    let col2 = '#EECDED';
-
-    function setup () {
-        createCanvas (w, h, P2D, cnv)
-    }
-
-    function draw () {
-        console.log (frameCount)
-        background('blue')
-
-        circle.size = 50 + sin(circle.phase) * 25;
-
-        fill (100, 150, 255);
-        noStroke();
-        ellipse(circle.x, circle.y, circle.size, circle.size);
-
-        circle.phase += 0.1;
-
-    }
-
-</script> -->
-
-<canvas id="p5_example"></canvas>
-
-<script>
-    const cnv = document.getElementById("p5_example");
-    const w = cnv.parentNode.scrollWidth;
-    const h = w * 9 / 16;
-
-    let circle = {
-        x: 200,
-        y: 200,
-        size: 50,
-        phase: 0,
-    };
-
-    function setup() {
-        createCanvas(w, h);
-        cnv.appendChild(canvas); // Attach the canvas created by p5.js to the specified div
-    }
-
-    function draw() {
-        background('blue');
-
-        circle.size = 50 + sin(circle.phase) * 25;
-
-        fill(100, 150, 255);
-        noStroke();
-        ellipse(circle.x, circle.y, circle.size, circle.size);
-
-        circle.phase += 0.1;
-    }
+  function draw() {
+    background(`turquoise`);
+    console.log(frameCount);
+  }
 </script>
 
-# Why Does ARTIST Classify as Post-Digital?
+```html
+<script src="./scripts/p5.js"></script>
 
-pick a post-digital artist from our discord channel, or from elsewhere on the internet. Choose a specific work and describe it, referring to Florian Cramer's essay What is Post-Digital? to justify why you think this artist classifies as post-digital.
+<canvas id="p5_example"></canvas>
 
-### What Technology are They Using to Produce Their Work?
+<script>
+  const cnv = document.getElementById("p5_example");
+  const w = cnv.parentNode.scrollWidth;
+  const h = (w * 9) / 16;
 
-Hypothetically, if they were using javascript, what APIs & libraries could they use?
+  function setup() {
+    createCanvas(w, h, P2D, cnv);
+  }
 
-# Post-Digital Poem
+  function draw() {
+    background(`turquoise`);
+    console.log(frameCount);
+  }
+</script>
+```
 
-use RiTa.js to generate a post-digital poem responding to the work in your blog.
+# Why Does Saeko Ehara Classify as Post-Digital?
+
+Saeko Ehara classifies as a post digital artist because her work extends beyond just using digital tools,s he also engages with culture and technology and how they shape experiences and perceptions. She blends digital techniques with physical inspirations, exploring themes like memory and impermanence.
+
+Saeko's work 'Collectible Scape':
+
+This artwork scans objects and turns them into a glitch digital sculpture. The end result kind of looks like the objects are from a distorted video game! This work fits Cramer's post-digital definition because it reflects on the limits of digital tools and doesn't just use it. Post-digital often combines digital and analog, some even resisting digital altogether and Saeko's work embraces the imperfection of digital tools and its failure to fully capture the physical world.
+
+### What Technology is Saeko Ehara Using to Produce Their Work?
+
+In terms of 'Collectible Scape', Saeko most likely used 3D scanning software and devices, photogrammetry to crate a 3D mesh, some modeling and 3D editing software as well as custom scripts to introduce the glitch aesthetics.
+
+Some rograms, libraries and API's that she could have used is three.js for rendering the 3D scenes in the browser, TouchDesigner, Python, Unity, WebGL/WebXR and MediaPipe, etc.
