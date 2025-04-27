@@ -24,8 +24,34 @@ All of these libraries can be used within a JavaScript module. It can be importe
 
 esm.sh is a CDN that allows us to use modules directly in the browser. It's most useful when working with ES modules that are not available as a bundled version for browsers and avoiding package installation.
 
-# Brief Summary of the Following Texts:
+# Use of signal on q5.js 
+I don't know why it won't show up...
+``` html
+<div id="q5_container"></div>
 
+<script type="module">
+  import q5 from "https://cdn.skypack.dev/q5";
+
+  const container = document.getElementById('q5_container');
+  const width = container.parentNode.scrollWidth;
+  const height = width * 9 / 16;
+
+  new q5((sk) => {
+    sk.setup = () => {
+      const c = sk.createCanvas(width, height);
+      container.appendChild(c.canvas);
+    };
+
+    sk.draw = () => {
+      sk.background('turquoise');
+      sk.fill(255, 0, 0);
+      sk.ellipse(sk.width / 2, sk.height / 2, 100);
+    };
+  });
+</script>
+```
+
+# Brief Summary of the Following Texts:
 ### Information and Thinking by Michel Serres
 
 Explores the relationship between information, technology and human thought. Discusses how the flow of informration can shape cognitive processes and how digital media (which often bypasses traditional modes of knowlefge) is transforming human understanding. Information is no longer just stored but rather continually evolves and adapts
@@ -37,3 +63,5 @@ Examines the consciousness and experience of fungi, focusing mainly on their com
 ### Xenofeminism: A Politics for Alienation by Laboria Cuboniks
 
 Xenofeminism pushes for a rethinking of gender, technology and society. It calls for embracing technological progress and rejecting traditional gender norms and patriarchal structures. Outlines a vision of a future where technology can be harnessed to overcome bioloical beterminism and liberate individuals from oppressive systems.
+
+
