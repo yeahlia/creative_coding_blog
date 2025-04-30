@@ -179,10 +179,19 @@ This challenges the idea of a fixed and self-contained identity. It describes li
 
 # Rough Draft for Assignment 2
 
-This is the JavaScript for my first draft! It uses the p5.js library which I imported in the HTML section. I like where this is headed but also it feels too simple, and not chaotic enough.
+This is the JavaScript for my first draft! It uses the p5.js library which I imported in the HTML section. I like where this is headed but also it feels too simple, and not chaotic enough. I inserted it in p5.js for the sake of being able to see the drafts in the blog, but I did make it on visual studio code!
+
+<iframe id="A1.1" src="https://editor.p5js.org/yeahlia/sketches/GQXJC0yFU"></iframe>
+
+<script type="module">
+
+    const iframe  = document.getElementById (`A1.1`)
+    iframe.width  = iframe.parentNode.scrollWidth
+    iframe.height = iframe.width 
+
+</script>
 
 ```js
-// --- GLOBAL VARIABLES -------------------------------------------------------------------------------------
 let growingBranches = []; // array of all growing branches
 let mainPointX, mainPointY; // holds the coordinates of the centre where the branches will start growing
 
