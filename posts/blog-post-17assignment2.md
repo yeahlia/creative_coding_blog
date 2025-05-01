@@ -1303,3 +1303,7 @@ I've seen the word branch too many times it doesn't look real anymore..
 ANYWAYS that was enough for one night, I think tomorrow I want to add the function where it follows the mouse (it can't be that hard right... just make it sway towards the x and y points of my mouse? right?) and then maybe the sound. I definitely still want to add the click function where it makes a new node, but I think it's a better idea to get everything functioning with the main one before I add that since it would basically just be doing what the main one is doing.
 
 After that I probably would want to change the colors so it looks less plain, and tweak all the rates and percentages to a chaotic enough level... hopefully...
+
+# Assignment Draft 7
+
+Next day... I wrote some code that moves biased towards the mouse, but it kinda removed the swaying that I like, I want it to not have so much strength. I showed the teacher and basically using physics and velocity will help it look more alive which I did here
