@@ -5,19 +5,24 @@ snippet:
 disable_html_sanitization: true
 allow_math: true
 ---
+9B = 
+# Unity Visual Scripting
+### Why am I interested in this GPL
 
-choose a graphical programming language (GPL) you are interested in out of:
+### How I Might Use This GPL in my Creative Practice
+
+
+### Strengths and Weaknesses of Unity Visual Scripting vs Other GPLS
+
+### Strengths and Weaknesses of Unity Visual Scripting vs Text Based Scripting Languages
+
+
+
+
 Pure Data
 Max MSP
 TouchDesigner
 Unity Visual Scripting
 Blender Geometry Nodes
 ComfyUI
-other
-find a tutorial series on this GPL, and follow along until you understand the basics.
-create a patch that demonstrates what you have learned.
-document the process in a blog post discussing:
-why you are interested in this GPL
-how you might use this GPL in your own creative practice
-the strengths & weaknesses of this GPL vs other GPLs
-the strengths & weaknesses of GPLs in general, vs text based scripting languages
+
