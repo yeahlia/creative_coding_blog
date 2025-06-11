@@ -5,26 +5,31 @@ snippet:
 disable_html_sanitization: true
 allow_math: true
 ---
-11A = 
+
 # Assignment Task 3 Plan
+
 ### Domain
+
+The domain is live collaborative music making, specifically within a band context.
 
 ### Repertoire
 
+Draws from what happens during shared pracices, like jamming without pre-planning strucutres.
+
 ### Values
+
+Value of creative freedom, emotional connection and inuitive exploration.
 
 ### Code Explanation
 
+Basically there will be 3 differnt screens, chord, scale and note view. There will be like a footer at the bottom with the buttons I can press. I will have arrays and keys for notes in a key, intervals and such. The actual scales can be built based on the notes in a key and the intervals so I don't have to write every single one. There will be a record function that analyzes audio and can guess the key based on that. There will be a reset butotn to reset all the choices, and settings to toggle color coded notes, labels and scale degrees.
+
 ### Practical Description
 
+It's designed to sit nearby while the band jams. Although this is mainly for guitarists, the note labels can also help show what notes are in the key. It is supposed to help bridge the theoretical gaps between band members whhich allow for morea creativity, rather than stress about being in the wrong key, etc. It doesn't intterupt and offers on-demand insight. Can also qork as an aid when rehearsing or pracitcing alone.
 
 # Written as a Haiku
 
-write down your plan for AT3.  Include:
-the domain, repertoire, and values of the community you have chosen
-an explanation of the code you are planning to use
-a practical description of what your plan is / how you see it working
-
-rewrite the text you wrote in task 4 as a haiku (or similarly short form)
-you may need to iterate with different angles / emphases until you find the version you like
-you can use AI assistance for this task
+Jamming in the dark
+A quiet guide finds out key
+The code hears our noise
